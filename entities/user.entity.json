@@ -1,9 +1,7 @@
 {
-  "modifiedOn": "2024-06-19T11:16:52.341Z",
   "name": "user",
   "id": "-1",
   "type": 1,
-  "createdOn": "2024-04-15T04:41:30Z",
   "content": {
     "default": {
       "attr_01713433667114": {
@@ -138,6 +136,23 @@
         "props": {
           "text": "testsahi",
           "is-password": "true"
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_agree_windows_5": {
+        "name": "agree_windows",
+        "accessors": [
+          {
+            "id": "acc_checkbox_agree_windows",
+            "name": "Agree_windows Input",
+            "accessor": "_checkbox(\"agree_windows\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "boolean",
+        "props": {
+          "default-value": "true"
         },
         "invalidData": [],
         "validData": []

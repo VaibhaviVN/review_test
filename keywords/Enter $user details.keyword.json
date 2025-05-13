@@ -139,12 +139,15 @@
         "action": "_check",
         "stepParameters": [
           {
-            "paramMode": "code",
-            "customValue": "_checkbox(\"agree_windows\")"
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_agree_windows_5",
+            "accessorId": "acc_checkbox_agree_windows"
           },
           {
-            "paramMode": "code",
-            "customValue": "true"
+            "paramMode": "default",
+            "parameterId": "user_",
+            "attributeId": "attr_agree_windows_5"
           }
         ],
         "stepCategory": "inbuilt",
