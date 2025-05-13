@@ -140,7 +140,7 @@
         "stepParameters": [
           {
             "paramMode": "code",
-            "customValue": "_checkbox(\"agree_windows123\")"
+            "customValue": "_checkbox(\"agree_windows\")"
           },
           {
             "paramMode": "code",
