@@ -1,11 +1,11 @@
 {
-  "modifiedOn": "2024-04-18T09:41:28.035693100Z",
   "name": "Go To Registration Page",
-  "id": "0",
+  "id": "-1",
   "type": 3,
-  "createdOn": "2024-04-18T09:41:28.035693100Z",
   "content": {
+    "isSystemKeyword": false,
     "title": "Go To Registration Page",
+    "specific": [],
     "parameters": [],
     "steps": [
       {
@@ -13,23 +13,28 @@
         "action": "_click",
         "stepParameters": [
           {
-            "customValue": "_link(\"My Account\")",
-            "paramMode": "code"
+            "paramMode": "code",
+            "customValue": "_link(\"My Account123\")"
           }
-        ]
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
       },
       {
         "commented": false,
         "action": "_click",
         "stepParameters": [
           {
-            "customValue": "_link(\"Register\")",
-            "paramMode": "code"
+            "paramMode": "code",
+            "customValue": "_link(\"Register\")"
           }
-        ]
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
       }
-    ],
-    "isSystemKeyword": false
+    ]
   },
   "enabled": false,
   "parentId": ""
